@@ -4,7 +4,7 @@ var JWT = require('jsonwebtoken');
 /* GET home page. */
 router.get('/', function (req, res, next) {
   res.render('index', {
-    title: 'Express'
+    title: 'Test Deployment by Jenkins'
   });
 });
 
